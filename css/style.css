@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+
+*{margin:0; padding:0;}
+
+li {
+    list-style: none;
+}
+
+
+/* Start header */
+header {
+    background-image: url(../img/header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+.head a {
+    float: left;
+    color: white;
+    margin: 15px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+header ul::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+header ul {
+    background-color: black;
+    height: 50px;
+}
+
+/* End header */
+
+
+/* Start content */
+
+/* End content */
