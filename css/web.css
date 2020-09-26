@@ -1,0 +1,72 @@
+#wrap {
+    width: 100%}
+header {
+    background-image: url(../img/header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+.head a {
+    float: left;
+    color: white;
+    margin: 18px 0;
+    margin-left: 20px;
+    font-size: 12.8px;
+}
+header ul::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+header ul {
+    background-color: black;
+    height: 50px;
+}
+/* End header */
+
+/* Start content */
+.item {
+    padding-left: 40px;
+}
+.info {
+    margin-bottom: 18px;
+}
+.cafe {
+    font-size: 25px;
+    height: 180px;
+}
+.come {
+    background-color: grey;
+    height: 180px;
+}
+.month {
+    height: 180px;
+}
+
+.come p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+/* End content */
+.
+
+
+/* Start footer */
+footer {
+    height: 80px;
+    background-color: black;
+    text-align: center;
+}
+.bar p {
+    color: white;
+    padding-top: 18px;
+    font-size: 20px;
+    /* font-weight: ;
+    font:bolder; */
+}
+
+/* End footer */
